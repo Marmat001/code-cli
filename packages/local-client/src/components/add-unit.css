@@ -1,0 +1,35 @@
+.add-unit {
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.3s ease-in 0.1s;
+  margin: 10px 0;
+}
+
+.add-unit:hover {
+  opacity: 1;
+}
+
+.add-unit.force-visibility {
+  opacity: 1;
+  margin-top: 10vh;
+}
+
+.add-unit .divider {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  right: 3%;
+  left: 3%;
+  border-bottom: 1px solid grey;
+  width: 90%;
+  z-index: -1;
+}
+
+.add-unit .add-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.add-unit .add-buttons button {
+  margin: 0 30px;
+}

@@ -1,0 +1,27 @@
+.code-preview-container {
+  position: relative;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.code-preview-container iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.react-draggable-transparent-selection .code-preview-container:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.error-message {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: red;
+}

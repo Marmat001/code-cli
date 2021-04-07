@@ -1,0 +1,7 @@
+.unit-list {
+  margin: 0 25px 50vh;
+}
+
+.react-draggable-transparent-selection .unit-list {
+  margin-bottom: 100vh;
+}
